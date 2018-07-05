@@ -9,6 +9,7 @@ const countriesReducer = function (state = initialState, action) {
     switch (action.type) {
         case GET_COUNTRIES:
             return Object.assign({}, state, {countries: state.countries})
+        break;
     }
 
     return state;
